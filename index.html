@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>GestionPro | Sistema Administrativo</title>
+
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    <div class="app-container">
+
+        <!-- Barra lateral -->
+        <aside id="sidebar-container"></aside>
+
+        <!-- Contenido principal -->
+        <main class="main-content">
+
+            <!-- Encabezado -->
+            <header class="topbar">
+                <div class="page-info">
+                    <h1 id="page-title">Panel Principal</h1>
+                </div>
+
+                <div class="user-info">
+                    <div class="user-avatar">A</div>
+
+                    <div class="user-details">
+                        <span class="user-name">Administrador</span>
+                        <span class="user-role">Usuario Central</span>
+                    </div>
+                </div>
+            </header>
+
+            <!-- renderiza pantalla actual -->
+            <section id="page-container"></section>
+
+        </main>
+
+    </div>
+
+    <script type="module" src="js/app.js"></script>
+
+</body>
+
+</html>
